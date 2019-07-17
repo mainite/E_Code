@@ -1,0 +1,14 @@
+.版本 2
+.支持库 spec
+
+.子程序 版本号对比
+.局部变量 POST地址, 文本型
+.局部变量 POST数据, 文本型
+.局部变量 网页返回, 文本型
+
+POST地址 ＝ “http://rest.maijju.com/services/commonx/getDicVals ”
+POST数据 ＝ “aaa”
+网页返回 ＝ 到文本 (网页_访问 (POST地址, 1, POST数据))
+调试输出 (网页返回)
+信息框 (网页返回, 0, , )
+
